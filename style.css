@@ -7,10 +7,8 @@
     /* HEADER */
 
     .iconos-sociales{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        margin-top: 10px;   
+        
+    
     }
     
     .iconos-sociales a{
@@ -213,8 +211,8 @@
     .image_github{
         height: 70px;
         width: 120px;
-        margin-left: 50px;
-        margin-bottom: 10px;
+        margin: 0 20px 10px 0;
+      
     }
     
     .sitio_web{
