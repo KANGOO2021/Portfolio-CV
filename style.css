@@ -1,0 +1,657 @@
+@media (max-width: 1400px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* HEADER */
+
+    .iconos-sociales{
+        
+    
+    }
+    
+    .iconos-sociales a{
+        margin-left: 10px;
+    }
+    
+    .iconos-sociales a {
+        margin-right: 5px;
+    }
+    .image_yp{
+        height: 50px;
+        width: 100px;
+    }
+    .image_inti{
+        height: 50px;
+        width: 220px;
+    }
+    
+    .images{
+        height:35px; 
+        width: 35px;
+      
+    }
+    #image_login{
+        display: none;
+    }
+    
+    #image_logout {
+        display: none;
+    }
+    
+    .carousel-inner img {
+        height: 75vh;
+        border-radius: 15px;
+        margin-top:10px;
+    }
+    
+    .card.foto_perfil{
+        width: 10rem;
+        margin-left: 80px;
+        border: 0;
+        margin-top: -100px;
+        background-color: transparent;  
+    }
+    
+    .card-img-top.foto_perfil_img{
+        height: 180px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    
+    .list{
+        margin-top:-20px;
+        margin-left: 70px;
+    }
+    
+    .perfil{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center; 
+    }
+    
+    .links{
+        margin-right: 35px;
+    }
+    
+    /* CSS COMPARTIDO */
+    
+    .acerca, .experiencia, .hard_soft_skills{
+        width: 95%;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 30px auto;
+    }
+    
+    /* EDUCACION */
+    
+    .educacion{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 30px auto;
+    }
+    
+    .educacion2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card{
+        border: 1px solid black;
+        margin: 7px;
+        cursor: move;
+    }
+    .card.seleccion{
+        transform: scale(1.02) rotate(-1deg);
+        box-shadow: 0px 0px 20px rgba(149,153,159,0.6);
+    }
+    
+    .card p.card-text{
+        margin-top: 0px;
+    }
+    
+    .card-img-top.card_educacion{
+        height: 120px;  
+        border-bottom:1px solid black;
+    }
+    
+    div.acerca p, div.experiencia p, div.educacion p {
+        margin: 20px 10px;
+        text-align: justify;
+    }
+    
+    .modal-dialog {
+        max-width: 800px;
+    }
+        
+    .educacion_titulos {
+        width: 770px;
+        height: 500px;
+    }
+    
+    
+    /* EXPERIENCIA */
+    
+    .experiencia_bg{
+        background-image: url(./img/sitio-en-construccion.jpg); 
+        height: 500px;
+    }
+    
+    /* HABILIDADES */
+    
+    .progress{
+        margin: 10px;
+    }
+    
+    .progress-bar-purple {
+        background-color: rgb(134, 3, 205) !important;
+    }
+    
+    .progress-bar-black {
+        background-color: rgb(82, 80, 82) !important;
+    }
+    
+    .progress-bar-orange {
+        background-color: rgb(224, 123, 21) !important;
+    }
+    
+    div.hard_soft_skills h4{
+        margin-left: 10px;
+    }
+    
+    span{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    }
+    
+    .skills{
+        border: 1px solid black;
+        border-radius: 15px;
+        margin: 20px;
+        cursor: pointer;
+        background-color: rgb(222, 226, 226);
+        width: auto; 
+    }
+    
+    .edicion_skills {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    
+    /* PROYECTOS */
+    
+    .proyectos {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 30px auto;
+    }
+    
+    .proyectos2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    .image_github{
+        height: 70px;
+        width: 120px;
+        margin: 0 20px 10px 0;
+      
+    }
+    
+    .sitio_web{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size:25px; 
+    }
+    
+    .sitio_web:hover {
+        color: #02A5E0;
+    }
+    
+    .image_web{
+        height: 40px;
+        width: 40px;
+        margin-right: 5px; 
+    }
+    
+    /* FOOTER */
+    
+    .footer{
+        width: 95%;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+    }
+    
+    #btn_eliminar {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 540px) {    
+
+
+     /* HEADER */
+     
+    .iconos-sociales {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    
+    .iconos-sociales a {
+        margin-left: 0px;
+    }
+ 
+   
+    .carousel-inner img {
+        height: 40vh;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+    
+    .card.foto_perfil {
+       
+        width: 7rem;
+        margin-left: 120px;
+        border: 0;
+        margin-top: -80px;
+        background-color: transparent;
+    }
+        
+    .card-img-top.foto_perfil_img {
+        height: 120px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+        
+    .list {
+        margin-top: -20px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    
+    .perfil {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .links {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        margin-left: auto;
+        margin-right:auto; 
+    }
+        
+    .links a{
+        margin: 3px;
+    }
+
+    
+    /* ACERCA DE */
+    
+    .titulo_acerca{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+        
+    .p_acerca{
+        font-size: 18px;
+        text-align: justify;
+        hyphens: auto;
+    }
+        
+        
+    /* EXPERIENCIA */
+    
+    .titulo_experiencia{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 25px;
+        text-decoration: underline;
+    }
+    
+    
+    .experiencia_bg {
+        background-image: url(./img/sitio-en-construccion.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px; 
+    }
+        
+        
+    /* EDUCACION */
+    
+    .titulo_educacion {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+    
+    .educacion2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    
+    .card {
+        margin-bottom: 15px;
+    }
+    
+    .modal-dialog {
+        max-width: auto;
+    }
+    
+    .educacion_titulos{
+        width: 100%;
+        height:250px;
+    }
+     
+    /* HABILIDADES */
+    
+    .titulo_hard_skills, .titulo_soft_skills{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: underline; 
+    }
+        
+    /* PROYECTOS */
+    
+    .titulo_proyectos{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+        
+    .image_proyectos{
+        margin: 15px 50px 0px;
+        width: 200px;
+    } 
+    
+    h4.titulo_tarjeta{
+        font-size: 30px;
+    }
+     
+    .texto_tarjeta{
+        margin-bottom: 30px;
+        font-size: 18px;
+        font-style: italic;
+        text-align: justify;
+        hyphens: auto;   
+    }
+        
+    .sitio_web{
+        margin-left:10px;
+    }
+        
+    .image_github{
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+        
+    /* FOOTER */
+    
+    .footer {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+        
+    #btn_eliminar {
+        display: none;
+    }
+
+}
+
+@media (min-width: 541px) and (max-width: 1030px){
+
+        /* HEADER */
+  
+    .iconos-sociales {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+
+    .iconos-sociales a {
+        margin-left: 5px;
+    }
+
+    .image_yp {
+        height: 50px;
+        width: 100px;
+    }
+
+    .image_inti {
+        height: 50px;
+        width: 220px;
+    }
+
+    .images {
+        height: 35px;
+        width: 35px;
+    }
+
+    #image_login {
+        display: none;
+    }
+
+    #image_logout {
+        display: none;
+    }
+
+    .carousel-inner img {
+        height: 30vh;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+
+    .card.foto_perfil {
+        width: 8rem;
+        margin-left: 120px;
+        border: 0;
+        margin-top: -80px;
+        background-color: transparent;
+    }
+
+    .card-img-top.foto_perfil_img {
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+
+    .list {
+        margin-top: -20px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .perfil {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links a {
+        margin: 3px;
+    }
+
+
+    /* ACERCA DE */
+
+    .titulo_acerca {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+
+    .p_acerca {
+        font-size: 18px;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+
+    /* EXPERIENCIA */
+
+    .titulo_experiencia {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 25px;
+        text-decoration: underline;
+    }
+
+    .experiencia_bg {
+        background-image: url(./img/sitio-en-construccion.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+    }
+
+
+    /* EDUCACION */
+
+    .titulo_educacion {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+
+    .educacion2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 20px 25px;
+        
+    }
+    
+    .modal-dialog {
+         max-width: 700px;
+    }
+
+    .educacion_titulos {
+        width: 680px;
+        height: 400px;
+    } 
+
+    /* HABILIDADES */
+
+    .titulo_hard_skills,
+    .titulo_soft_skills {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+
+    /* PROYECTOS */
+
+    .titulo_proyectos {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+    
+    .proyectos2 {
+        display: flex;
+        justify-content:center;
+    }
+
+    .image_proyectos {
+        margin: 10px;
+        width: 200px;
+    }
+
+    h4.titulo_tarjeta {
+        font-size: 30px;
+    }
+
+    .texto_tarjeta {
+        margin-bottom: 30px;
+        font-size: 18px;
+        font-style: italic;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    .sitio_web {
+        margin-left: 10px;
+    }
+
+    
+
+    /* FOOTER */
+
+    .footer {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #btn_eliminar {
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
